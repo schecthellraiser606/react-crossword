@@ -1,5 +1,8 @@
 import React, { memo, VFC } from "react";
-import Crossword from "@jaredreisinger/react-crossword";
+//英語
+// import Crossword from "@jaredreisinger/react-crossword"; 
+//日本語
+import Crossword from '@naari3/react-crossword-ja';
 
 // eslint-disable-next-line react/display-name
 export const Sample02: VFC = memo(() => {

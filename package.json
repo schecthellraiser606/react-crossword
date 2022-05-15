@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@jaredreisinger/react-crossword": "^4.3.2",
+    "@naari3/react-crossword-ja": "^4.5.0",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-crossword": "^0.2.0",

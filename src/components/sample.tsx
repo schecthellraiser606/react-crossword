@@ -1,5 +1,8 @@
 import React, { memo, VFC } from "react";
-import Crossword from "@jaredreisinger/react-crossword";
+//英語
+// import Crossword from "@jaredreisinger/react-crossword"; 
+//日本語
+import Crossword from '@naari3/react-crossword-ja';
 
 // eslint-disable-next-line react/display-name
 export const Sample: VFC = memo(() => {
@@ -7,7 +10,7 @@ export const Sample: VFC = memo(() => {
     across: {
       1: {
         clue: "1 + 1 =",
-        answer: "TWO",
+        answer: "ふたつ",
         row: 0,
         col: 0,
       },
@@ -15,7 +18,7 @@ export const Sample: VFC = memo(() => {
     down: {
       2: {
         clue: "2 - 1 =",
-        answer: "ONE",
+        answer: "ひとつ",
         row: 0,
         col: 2,
       },
